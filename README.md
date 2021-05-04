@@ -11,7 +11,7 @@ There are two main notebooks used for this project. The first was used to gather
 ### Data Notebook Methodology
 [github repo](https://github.com/cristinamtown/flatiron_capstone/blob/main/Data.ipynb)
 1. Import necessary libraries including Beautiful Soup, Pandas, and Requests.
-2. Create a function the scrapes the the usernames that follows the given username and returns the usernames in a list.
+2. Create a function that scrapes the usernames that follows the given username and returns the usernames in a list.
 3. Run user_list function with 'fuchsiadyke' to scrape the usernames since they are followed by over 16,000 users ensuring we can easily gather over 2,000 usernames from them.
 4. Create and run a function that uses the list of usernames to scrape user ratings from Letterboxd and store it in a dataframe.
 5. Save the dataframe as a .csv file.
@@ -24,29 +24,29 @@ There are two main notebooks used for this project. The first was used to gather
 
 ### tmdb API
 [github repo](https://github.com/cristinamtown/flatiron_capstone/blob/main/TMDB%20.ipynb)
-This notebook will be used to add genres, film length, and other information to the film infomation table using the tmdb api.
+This notebook will be used to add genres, film length, and other information to the film information table using the tmdb api.
 It is still a work in progress. 
 
 ### Recommendation System
 [github repo](https://github.com/cristinamtown/flatiron_capstone/blob/main/Recommendation%20System.ipynb)
 1. Import necessary libraries for pandas, SQL, and plotly.
-2. Intialize connection to SQL database.
+2. Initialize connection to SQL database.
 3. A quick look at the data and EDA.
 4. A non-personalized recommendation system: top 20 rated films.
 5. Create and run a function that makes a dataframe with the target user's rating information.
-6. Create a rating dataframe from the SQL data base and ensure it is in a form that can be used with the models.
+6. Create a rating dataframe from the SQL database and ensure it is in a form that can be used with the models.
 7. Remove any films that have fewer than the given threshold. This helps prevent the models from breaking.
 8. Import SVD libraries and prepare data to run in the SVD model.
 9. Train/Test split the rating data.
 10. Run, test model, and evaluate the model.
-11. Create a dataframe of the film inforamtion table of the SQL data base. 
+11. Create a dataframe of the film information table of the SQL database. 
 12. Run the model on the target user and print the top 5 recommendations. 
-13. KNN model is still a work in progress.
+13. The KNN model is still a work in progress.
 14. Import necessary libraries for the PySpark ALS model.
-15. Prepare data that will used in the model.
+15. Prepare data that will be used in the model.
 16. Train/Test split the rating data.
 17. Run, test model, and evaluate the model.
-18. Create a dataframe of the film inforamtion table of the SQL data base.
+18. Create a dataframe of the film information table of the SQL database.
 19. Run the model on the target user and print the top 5 recommendations. 
 20. Do a quick post-model examination of the predictions and check for bias.
 
@@ -55,11 +55,11 @@ It is still a work in progress.
 
 ## The Data
 
-The SQL table belows show make up of the two tables used in this project. 
+The SQL table belows shows the makeup of the two tables used in this project. 
 
 ![SQL_db_diagram](images/db_diagram.png)
 
-As of now, the tables has 579,707 rating from 1,199 users rating 77,772 different movies.
+As of now, the table has 579,707 ratings from 1,199 users rating 77,772 different movies.
 
 
 
@@ -125,4 +125,5 @@ This shows the *Come and See*, *Parasite*, and *12 Angry Men* were recommended t
 - Create recommendations on additional information in film_info table
 
 - Create a front end so anyone can input a letterboxd username and receive movie recommendations
+
 
