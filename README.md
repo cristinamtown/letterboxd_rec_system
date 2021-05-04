@@ -80,11 +80,11 @@ This model was tested on two letterboxd users.
 
 user dougbones: 201 films logged and 22 ratings
 
-![dougbones_svd](images/dougbones_svd)
+![dougbones_svd](images/dougbones_svd.png)
 
 user creepergnome: 2,901 films logged and 2,234 ratings
 
-![creepergnome_svd](images/creepergnom_svd)
+![creepergnome_svd](images/creepergnom_svd.png)
 
 
 ### PySpark ALS Model
@@ -94,17 +94,17 @@ This model was tested on the same two users.
 
 user dougbones:
 
-![dougbones_als](images/dougbones_als)
+![dougbones_als](images/dougbones_als.png)
 
 user creepergnome:
 
-![creepergnome_als](images/creepergnome_als)
+![creepergnome_als](images/creepergnome_als.png)
 
 **PySpark ALS Post Model EDA**
 
 Post madel examination was done on the Pyspark model. Here we looked at the 20 most recommended films across all users.
 
-![pyspark_post_model_df](images/top_20_rec_als)
+![pyspark_post_model_df](images/top_20_rec_als.png)
 
 ![yspark_post_model_plot](images/top_20_rec.png)
 
