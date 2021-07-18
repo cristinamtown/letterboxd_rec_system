@@ -1,7 +1,7 @@
 # Letterboxd Recommendation System
 
 ## Business Case:
-Through this project, we aim to create a recommendation systems that will recommend 5 movies to any given Letterboxd user using various methods including non-personal recommendations, Surprise and PySpark. 
+Through this project, we aim to create a recommendation systems that will recommend 5 movies to any given Letterboxd user. There will be various methods including non-personal recommendations and collaborative recommendations using Surprise and PySpark. 
 
 
 ## Methodology:
