@@ -5,10 +5,10 @@ Through this project, we aim to create a recommendation systems that will recomm
 
 
 ## Methodology:
-There are two main notebooks used for this project. The first was used to gather data from Letterboxd and TMdB. The other notebook is where the meat of the recommendation system code is located. 
+There are three main notebooks used for this project. The first two are used to gather data from Letterboxd and TMdB through web-scraping and an API. The other notebook is where the actual recommendation system code is located. 
 
 
-### Data Notebook Methodology
+### Web-Scraping Notebook Methodology
 [github repo](https://github.com/cristinamtown/flatiron_capstone/blob/main/Data.ipynb)
 1. Import necessary libraries including Beautiful Soup, Pandas, and Requests.
 2. Create a function that scrapes the usernames that follows the given username and returns the usernames in a list.
